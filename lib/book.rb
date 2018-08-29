@@ -16,6 +16,7 @@ class Book
   def author
     @author
   end 
+  # setter method for pagecount
   def page_count=(num)
     @page_count = num
   end 

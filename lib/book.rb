@@ -20,6 +20,10 @@ class Book
   def page_count=(num)
     @page_count = num
   end 
+  #getter method for pagecount
+  def page_count
+    @page_count
+  end 
   
   
 end 
